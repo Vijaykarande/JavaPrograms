@@ -1,0 +1,19 @@
+import java.util.Scanner;
+class factdowhile
+{
+	public static void main(String [] args)
+	{
+		int no,f=1,i=1;
+		Scanner s=new Scanner(System.in);
+		no=s.nextInt();
+		do
+		{
+			System.out.println("factorial:"+f);
+			i++;
+		}
+		while(i<=no);
+	}
+}
+
+			
+		

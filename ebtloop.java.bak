@@ -1,0 +1,11 @@
+class ebtloop
+{
+	public static void main(String [] args)
+	{
+		int no=55;
+		for(int i=17;i<no;i++)
+		{
+			System.out.println(no);
+		}
+	}
+}
