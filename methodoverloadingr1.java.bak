@@ -1,0 +1,19 @@
+class methodoverloadingr1
+{
+	public static int add(int a,int b, int c)
+	{
+		int d=a+b+c;
+		return d;
+	}
+	public static void main(String [] args)
+	{
+		methodoverloadingr1 v1=new methodoverloadingr1();
+		System.out.println(v1.add(10,20,30,40,50));
+	}
+	public static int add(int a,int b, int c, int e)
+	{
+		int d=a+b+c+e;
+		return d;
+	}
+}
+ 

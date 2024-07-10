@@ -1,0 +1,17 @@
+class stackoverflow2
+{
+	public static void main(String [] args)
+	{
+		int a=20,b=40,c;
+		c=a+b;
+		add();
+		System.out.println("Add:"+c);
+		System.out.println("Vijay");
+	}
+	public static void add();
+	{
+		System.out.println("Vijay Karande");
+		add();
+		System.out.println("Karande");
+	}
+}

@@ -1,0 +1,28 @@
+class moverload
+{
+	public static int add(int a,int b)
+	{
+		return a+b;
+	}
+	public static int add(int a,int b,int c)
+	{
+		return a+b+c;
+	}
+	public static double add(double a, double b)
+	{
+		return a+b;
+	}
+	public static double add(double a, double b, double c, double d)
+	{
+		return a+b+c+d;
+	}
+	public static void main(String [] args)
+	{
+		moverload v1=new moverload();
+		System.out.println(v1.add(10,20));
+		System.out.println(v1.add(10,20,30));
+		System.out.println(v1.add(10.00,20.00));
+		System.out.println(v1.add(10.00,20.00,30.00,40.5));
+		
+	}
+}

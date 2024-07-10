@@ -1,0 +1,19 @@
+ class methodoverloadingr3
+ {
+	public static int add(int a,double b)
+	{
+		int c=a+b;
+		return c;
+	}
+	public static double add(double a,int b)
+	{
+		double c=a+b;
+		return c;
+	}
+	public static void main(String [] args)
+	{
+		methodoverloadingr3 v1=new methodoverloadingr3();
+		System.out.println(v1.add(12.00,12));
+	}
+ }
+ 
