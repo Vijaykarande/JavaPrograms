@@ -1,0 +1,50 @@
+class dataredundant
+{
+	String name;
+	int age;
+	int idno;
+	double salary;
+	int hike;
+	
+	{
+		System.out.println("NSMLI 1");
+	}
+	
+	{
+		System.out.println("MLNSI 2");
+	}
+	
+	{
+		System.out.println("MLNSI 3");
+	}
+	
+	dataredundant(String name, int age, int idno, double salary, int hike)
+	{
+		this.name=name;
+		this.age=age;
+		this.idno=idno;
+		this.salary=salary;
+		this.hike=hike;
+	}
+	
+	void DisplayDetails()
+	{
+		System.out.println("###-----DETAILS-------###");
+		System.out.println("Name:"+name);
+		System.out.println("Age:"+age);
+		System.out.println("Idno:"+idno);
+		System.out.println("Salary:"+salary);
+		System.out.println("Hike:"+hike);
+	}
+	public static void main(String [] args)
+	{
+		dataredundant v1=new dataredundant("Vijay Karande", 24, 123,500000, 120);
+		dataredundant v2=new dataredundant();
+		dataredundant v3=new dataredundant();
+		dataredundant v4=new dataredundant();
+		v1.DisplayDetails();
+		v2.DisplayDetails();
+		v3.DisplayDetails();
+		v4.DisplayDetails();
+	}
+}
