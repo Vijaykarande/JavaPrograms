@@ -1,0 +1,17 @@
+class constructorload
+{
+	String name;
+	int age;
+	char geneder;
+
+	constructorload()
+	{
+		
+	}
+	public static void main(String [] args)
+	{
+		
+		constructorload v1=new constructorload();
+		
+	}
+}
