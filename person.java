@@ -1,0 +1,19 @@
+//constructor chaining using this call statement
+class person
+{
+	person(){
+		System.out.println("No ARGS Const");
+	}
+	person(int a){
+		this();
+		System.out.println(a);
+	}
+	person(String name){
+		this(10);
+		System.out.println(name);
+	}
+	public static void main(String [] args)
+	{
+		person p1=new  person("Vijay");
+	}
+}

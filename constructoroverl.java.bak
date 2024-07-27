@@ -1,0 +1,35 @@
+class constructoroverl
+{
+	String name;
+	int age;
+	flaot salary;
+	
+	constructoroverl(String name)
+	{
+		this.name=name;
+	}
+	constructoroverl(String name, int age)
+	{
+		this.name=name;
+		this.age=age;
+	}
+	constructoroverl(String name, int age, flaot salary)
+	{
+		this.name=name;
+		this.age=age;
+		this.salary=salary;
+	}
+	void display()
+	{
+		System.out.println("Name:"+name);
+		System.out.println("Age:"+age);
+		System.out.println("Salary:"+salary);
+	}
+	public static void main(String [] args)
+	{
+		constructoroverl c1=new constructoroverl("Vijay",26,230005);
+		c1.display();
+	}
+}
+
+		

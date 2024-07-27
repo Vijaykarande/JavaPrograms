@@ -1,0 +1,40 @@
+class Addtion
+{
+	void add()
+	{
+		int x=12;
+		int y=12;
+		int z=x+y;
+			System.out.println(z);
+	}
+}
+class Substaction extends Addtion
+{
+	void sub()
+	{
+		int x=30;
+		int y=30;
+		int z=x-y;
+		System.out.println(z);
+	}
+}
+class Multiplication extends Addtion
+{
+	void mul()
+	{
+		int x=23;
+		int y=0;
+		int z=x+y;
+		System.out.println(z);
+	}
+}
+class herarchicalih
+{
+	public static void main(String [] args)
+	{
+		Multiplication m1=new Multiplication();
+		m1.add();
+	
+		m1.mul();
+	}
+}
