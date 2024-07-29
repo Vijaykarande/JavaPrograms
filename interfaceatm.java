@@ -1,0 +1,28 @@
+interface bank
+{
+	int balance=20000;
+	void deposite();
+	void withdraw();
+}
+class atm implements bank
+{
+	@Override
+	public void deposite()
+	{
+		System.out.println("Mony deposite Succesfully!!!!");
+	}
+	@Override
+	public void withdraw()
+	{
+		System.out.println("Mony withdraw Succesfully:");
+	}
+}
+class interfaceatm
+{
+	public static void main(String [] args)
+	{
+		atm a1=new atm();
+		a1.withdraw();
+		a1.deposite();
+	}
+}

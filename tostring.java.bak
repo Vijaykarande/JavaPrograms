@@ -1,0 +1,8 @@
+class tostring
+{
+	public static void main(String [] args)
+	{
+		tostring t1=new tostring();
+		System.out.println(t1.tostring);
+	}
+}

@@ -1,0 +1,38 @@
+abstract class vehicle
+{
+	abstract void start();
+	abstract void stop();
+}
+abstract class car extends vehicle
+{
+	abstract void shiftGEar();
+}
+class mustang extends car
+{
+	@Override
+	public void start()
+	{
+		System.out.println("Mustang startted");
+	}
+	@Override
+	public void stop()
+	{
+		System.out.println("Mustang stopped");
+	}
+	@Override
+	public void shiftGEar()
+	{
+		System.out,.println("Gear Shifted");
+	}
+}
+	class atmdriver
+	{
+		public static void main(String [] args)
+		{
+			mustang m1=new mustang();
+			m1.start();
+			m1.shiftGEar();
+			m1.stop();
+		}
+	}
+

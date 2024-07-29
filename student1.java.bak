@@ -1,0 +1,29 @@
+class student1
+{
+	String name;
+	double mobno;
+	int idno;
+	String sname;
+	char gender;
+	
+	student1(String name, long mobno, int idno, String sname, char gender)
+	{
+		this.name=name;
+		this.mobno=mobno;
+		this.idno=idno;
+		this.sname=sname;
+		this.gender=gender;
+	}
+	@Override
+	public String toString()
+	{
+		return "name:"+name,+"mobno:"+mobno+"idno:"+idno+"sname:"+sname+"+gender:"+gender;
+	}
+	public static void main(String [] args)
+	{
+		student1 s1=new student1("Vijay Karande",75179362,147,"PVPIT",'M');
+		System.out.println(s1);
+	}
+}
+
+		
