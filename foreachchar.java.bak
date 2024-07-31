@@ -1,0 +1,12 @@
+class foreachchar
+{
+	public static void main(String [] args)
+	{
+		char arr [] ={'A' ,'V', 'I' , 'J' , 'A' , 'Y'};
+		
+		for(int ele : arr)
+		{
+			System.out.println(ele);
+		}
+	}
+}
