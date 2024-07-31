@@ -1,0 +1,18 @@
+class darray2
+{
+	public static void main(String [] args)
+	{
+		int arr [][]={{10,20,30},{100,200,300},{1000,2000,3000}};
+		
+	
+		System.out.println("Value At:"+arr[0][0]);
+		System.out.println("Value At:"+arr[0][1]);
+		System.out.println("Value At:"+arr[0][2]);
+		System.out.println("Value At:"+arr[1][0]);
+		System.out.println("Value At:"+arr[1][1]);
+		System.out.println("Value At:"+arr[1][2]);
+		System.out.println("Value At:"+arr[2][0]);
+		System.out.println("Value At:"+arr[2][1]);
+		System.out.println("Value At:"+arr[2][2]);
+	}
+}
