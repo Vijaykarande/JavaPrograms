@@ -1,0 +1,22 @@
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+class throwskeyword2
+{
+	public static void OpenFile() throws FileNotFoundException
+	{
+		FileInputStream f1=new FileInputStream("D:\\cctech\\file");
+	}
+	public static void main(String [] args) throws FileNotFoundException
+	
+	try
+	{
+		OpenFile();
+	}
+	
+	catch(FileNotFoundException e)
+	{
+		System.out.println("Handeled");
+	}
+}
+
+	
