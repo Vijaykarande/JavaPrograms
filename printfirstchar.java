@@ -1,0 +1,12 @@
+class printfirstchar
+{
+	public static void main(String[] args)
+	{
+		String Rainbow [] ={ "VIOLET" , "INDIGO" , "BLUE", "GREEN", "YELLOW", "ORANGE" , "RED"};
+		
+		for(int i=0;i<Rainbow.length;i++)
+		{
+			System.out.println(Rainbow[i].charAt(0));
+		}
+	}
+}
