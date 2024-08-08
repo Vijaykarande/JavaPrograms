@@ -8,6 +8,7 @@ class array1
 	arr[2]=30;
 	arr[3]=50;
 	arr[4]=60;
+	System.out.println(arr[].push(1200));
 	
 	
 	System.out.println(arr[0]);

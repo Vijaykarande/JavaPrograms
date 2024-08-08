@@ -1,15 +1,29 @@
-class array1
-{
-	public static void main(String [] args)
-	{
-	int arr[]=new int [5];
-	arr[0]=20;
-	arr[1]=20;
-	arr[2]=30;
-	arr[3]=50;
-	arr[4]=60;
-	
-	
-	System.out.println(arr[1]);
-	}
+import java.util.ArrayList;
+
+class array1 {
+    public static void main(String[] args) {
+        // Initialize the ArrayList
+        ArrayList<Integer> arr = new ArrayList<>();
+
+        // Add elements to the ArrayList
+        arr.add(20);
+        arr.add(20);
+        arr.add(30);
+        arr.add(50);
+        arr.add(60);
+
+        // Push operation: add element to the end of the list
+        arr.add(1200); // push is essentially the add method for ArrayList
+
+        // Pop operation: remove the last element from the list
+        int poppedElement = arr.remove(arr.size() - 1); // pop removes the last element
+
+        // Print the ArrayList elements
+        for (int i = 0; i < arr.size(); i++) {
+            System.out.println(arr.get(i));
+        }
+
+        // Print the popped element
+        System.out.println("Popped element: " + poppedElement);
+    }
 }
