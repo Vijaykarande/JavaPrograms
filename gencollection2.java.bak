@@ -1,0 +1,34 @@
+import java.util.*; // Corrected import statement
+
+class GenBook { // Corrected class name
+    String name;
+    double price;
+    int noOfPages; // Corrected variable name casing for consistency
+
+    GenBook(String name, double price, int noOfPages) {
+        this.name = name;
+        this.price = price;
+        this.noOfPages = noOfPages;
+    }
+
+    @Override
+    public String toString() { // Corrected method return type
+        return "name: " + name + ", price: " + price + ", noOfPages: " + noOfPages;
+    }
+}
+
+public class GenCollection2 { // Corrected class name
+    public static void main(String[] args) {
+        ArrayList<GenBook> a1 = new ArrayList<>(); // Simplified instantiation
+        GenBook b1 = new GenBook("Java", 450.60, 300);
+        GenBook b2 = new GenBook("Python", 509, 600);
+
+        a1.add(b1);
+        a1.add(b2);
+
+        Iterator<GenBook> i = a1.iterator(); // Type-safe iterator
+        while (i.hasNext()) {
+            System.out.println(i.next());
+        }
+    }
+}

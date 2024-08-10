@@ -1,0 +1,15 @@
+import java.util.*;
+class sortarray
+{
+	public static void main(String [] args)
+	{
+		int arr [] ={10,20,30,9,8,60,6};
+		
+		Arrays.sort(arr);
+		for(int ele : arr)
+		{
+			System.out.println(arr);
+		}
+	}
+	
+}

@@ -1,0 +1,37 @@
+import java.uti.ArrayList;
+class genbook1
+{
+	String name;
+	double price;
+	int noOfpages;
+	
+	genbook1(String name , double price , int noOfpages)
+	{
+		this.name=name;
+		this.price=price;
+		this.noOfpages=noOfpages;
+	}
+	@Override
+	public string toString()
+	{
+		return "name:"+name+"price:"+price+"noOfpages:"+noOfpages;
+	}
+}
+class vi
+{
+	public static void main(String [] args)
+	{
+		ArrayList <genbook> a1=new ArrayList<genbook>();
+		genbook1 b1=new genbook1("Java",450.60,300);
+		genbook1 b2=new genbook1("Python",509,600);
+		
+		a1.add(b1);
+		a1.add(b2);
+		
+		Iterator i=a1.iterator();
+		while(i.hasNext())
+		{
+			System.out.println(i.next());
+		}
+	}
+}

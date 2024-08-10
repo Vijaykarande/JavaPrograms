@@ -1,0 +1,25 @@
+import java.util.LinkedList;
+import java.util.Iterator;
+class linkedlist4
+{
+	public static void main(String [] args)
+	{
+		LinkedList l1=new LinkedList();
+		l1.add(90);
+		l1.add(89);
+		l1.add(87);
+		//System.out.println(l1);
+		
+		/* for(int ele : l1)
+		{
+			System.out.println(ele);
+		}
+		*/
+		
+		Iterator i=l1.iterator();
+		while(i.hasNext())
+		{
+		System.out.println(i.next());
+		}
+	}
+}

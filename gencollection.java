@@ -1,0 +1,19 @@
+import java.util.ArrayList;
+class gencollection
+{
+	public static void main(String [] args)
+	{
+	ArrayList <Integer> a1=new ArrayList <Integer> ();
+	
+	a1.add("Vijay");
+	a1.add("Shivansh");
+	a1.add(10);
+	a1.add(20);
+	a1.add(30);
+	
+	for(int ele :a1)
+	{
+	System.out.println(ele);
+	}
+	}
+}
