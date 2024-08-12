@@ -16,7 +16,7 @@ class comparetomethod implements Comparable
 	}
 	
 	@Override
-	public int CompareTo(Object o)
+	public int compareTo(Object o)
 	{
 	comparetomethod temp=(comparetomethod) o;
 	

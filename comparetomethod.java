@@ -1,5 +1,5 @@
 import java.util.*;
-class comparetomethod implements comparable
+class comparetomethod implements Comparable
 {
 	String name;
 	int price;
@@ -16,7 +16,7 @@ class comparetomethod implements comparable
 	}
 	
 	@Override
-	public int CompareTo(Object o)
+	public int compareTo(Object o)
 	{
 	comparetomethod temp=(comparetomethod) o;
 	
