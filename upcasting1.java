@@ -16,10 +16,15 @@ class upcasting1
 {
 	public static void main(String [] args)
 	{
-		parent p1=new child();//upcasting
+//parent p1=new child();//upcasting
 		
-		child c1=(child) p1;//downcasting
+		//child c1=(child) p1;//downcasting
+		
+		child c1=new child();
+		
+		parent p1=c1;
 		
 		p1.show();
+		p1.display();
 	}
 }
